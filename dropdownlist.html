@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>dropdownlist</title>
+  </head>
+  <body>
+    <!-- action attribute contain url where we share data it work while having database -->
+    <!-- post is secure as it doesn't add value to Url while get will add value to URl -->
+    <form action="" method="post">
+      <p>Months</p>
+      <!-- multiple allow to select multiple options -->
+      <select name="month_selected" multiple>
+        <option value="Jan">Jan</option>
+        <!-- selected will work as checked because is a boolean one is by default selected -->
+        <option value="Feb" selected>Feb</option>
+        <option value="Mar">Mar</option>
+        <option value="Apr">Apr</option>
+      </select>
+      <p>Share Your experience</p>
+      <textarea name="experience" cols="30" rows="10"></textarea><br />
+      <input type="submit" />
+      <!-- <button type="button">
+        <img src="/web/Image/logo_switchtocode.png" height="5%" width="50%" />
+      </button> -->
+    </form>
+  </body>
+</html>
